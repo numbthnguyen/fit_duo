@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "302527645579",
+    "firebase_url": "https://fitduo.firebaseio.com",
+    "project_id": "fitduo",
+    "storage_bucket": "fitduo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302527645579:android:35ac3be1595b28c9",
+        "android_client_info": {
+          "package_name": "com.fit_duo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302527645579-uk1ee9ulge71dkp946gffcf7mbveu09k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fit_duo",
+            "certificate_hash": "a32a6344217abe413c2257f5e0cc5472cefece0b"
+          }
+        },
+        {
+          "client_id": "302527645579-0sdek89l8l94u21urdh3t3fhr9o4cvg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNeigt17F0jX98KHZzsd7Ybj7Go9bLmWE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302527645579-0sdek89l8l94u21urdh3t3fhr9o4cvg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
