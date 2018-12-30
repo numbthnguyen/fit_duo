@@ -7,6 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.facebook.login.LoginManager;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -60,7 +61,9 @@ public class MainActivity extends AppCompatActivity {
 
         if (item.getItemId() == R.id.main_logout_button) {
 
-            FirebaseAuth.getInstance().signOut();
+            mAuth.signOut();
+            LoginManager.getInstance().logOut();
+
             sendToStartActivity();
         }
 
