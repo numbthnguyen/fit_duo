@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-        mToolbar = findViewById(R.id.main_activity_toolbar);
+        mToolbar = findViewById(R.id.main_toolbar);
         setSupportActionBar(mToolbar);
         getSupportActionBar().setTitle(getResources().getText(R.string.app_name));
     }
